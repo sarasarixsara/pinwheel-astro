@@ -1,85 +1,94 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Inicio",
       "url": "/"
     },
     {
-      "name": "About",
-      "url": "/about"
-    },
-    {
-      "name": "Blog",
-      "url": "/blog"
-    },
-    {
-      "name": "Features",
-      "url": "/features"
-    },
-    {
-      "name": "How It Works",
-      "url": "/how-it-works"
-    },
-    {
-      "name": "Pages",
+      "name": "Servicios",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Career",
+          "name": "Domótica",
           "url": "/career"
         },
-
         {
-          "name": "Integrations",
-          "url": "/integrations"
+          "name": "Internet",
+          "url": "/integrations",
+          "hasChildren": true,
+          "children": [
+            {
+              "name": "Domótica",
+              "url": "/career"
+            }
+          ]
         },
-
         {
-          "name": "Pricing",
+          "name": "Redes",
           "url": "/pricing"
         },
         {
-          "name": "Sign In",
+          "name": "Seguridad electrónica",
           "url": "/signin"
-        },
-
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Changelog",
-          "url": "/changelog"
-        },
-        {
-          "name": "Terms And Conditions",
-          "url": "/terms-and-conditions"
         }
       ]
     },
     {
-      "name": "Contact",
-      "url": "/contact"
-    }
-  ],
-
-  "footer": [
-    {
-      "name": "About",
-      "url": "/about"
-    },
-    {
-      "name": "Contact",
-      "url": "/contact"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Changelog",
-      "url": "/changelog"
-    }
-  ]
-}
+      "name": "Productos",
+      "url": "/features",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Kit Domótica",
+          "url": "/career"
+        },
+        {
+          "name": "fibra Óptica: diseño y asesoría",
+          "url": "/integrations"
+          
+        },
+        {
+          "name": "Radio enlaces",
+          "url": "/pricing"
+        },
+        {
+          "name": "CCTV",
+          "url": "/signin"
+        },
+        {
+          "name": "Alarmas",
+          "url": "/signin"
+        }
+      ]
+      },
+      {
+        "name": "Blog",
+        "url": "/blog"
+      }
+    ],
+    "footer": [
+      {
+        "name": "Inicio",
+        "url": "/about"
+      },
+      {
+        "name": "Servicios",
+        "url": "/contact"
+      },
+      {
+        "name": "Productos",
+        "url": "/elements"
+      },
+      {
+        "name": "Blog",
+        "url": "/changelog"
+      }
+      ,
+      {
+        "name": "Contacto",
+        "url": "/changelog"
+      }
+    ]
+    
+  }
