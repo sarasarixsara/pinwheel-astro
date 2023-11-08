@@ -2,24 +2,40 @@
 import Base from "@layouts/Base.astro";
 import Banner from "@layouts/components/Banner.astro";
 import KeyFeatures from "@layouts/components/KeyFeatures.astro";
-import Testimonial from "@layouts/components/Testimonial.astro";
+import IndexTestimonial from "@layouts/components/IndexTestimonial.astro";
 import Service from "@layouts/components/Service.astro";
 import Cta from "@layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
+import CounterComponent from "@components/about/CounterComponent.astro";
+import PageHeader from "@components/PageHeader.astro";
 
+
+const about = await getEntryBySlug("about", "index");
+const { counter } = about.data;
 const homepage = await getEntryBySlug("homepage", "index");
-const { banner, key_features, service, testimonial } = homepage.data;
+const { banner, key_features, service, indexTestimonial } = homepage.data;
+const page_data = {
+  ...about.data,
+  content: about.body,
+};
 ---
 
 <Base>
-  <!-- banner -->
-  <Banner banner={banner} />
+   <!-- testimonial -->
+   <IndexTestimonial indexTestimonial={indexTestimonial} />
+  <section class="page-hero py-16">
+    <div class="container">
+ 
+  <div class="page-hero-content mx-auto max-w-[768px] text-center">
+    <PageHeader page_data={page_data} />
+  </div>
+  <CounterComponent counter={counter} />
+
+  <IndexTestimonial indexTestimonial={indexTestimonial} />
+
   <!-- key features -->
   <KeyFeatures key_features={key_features} />
-  <!-- service -->
-  <Service service={service} />
-  <!-- testimonial -->
-  <Testimonial testimonial={testimonial} />
-  <!-- call to action -->
-  <Cta />
+
+</div>
+</section>
 </Base>

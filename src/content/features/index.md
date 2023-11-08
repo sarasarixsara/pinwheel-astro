@@ -2,7 +2,7 @@
 title: Features
 banner:
   title: Connects with all your other tools to create a smooth experience.
-  content: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta.
+  content: Donecholaaaaaaaaaaaaaaaaaaaricies ligula sed magna dictum porta.
   image: "/images/features-banner-img.png"
   button:
     label: Download The Theme

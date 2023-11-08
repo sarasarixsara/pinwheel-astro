@@ -42,7 +42,7 @@ const { title, images } = gallery;
 <script>
   import Shuffle from "shufflejs";
   const element = document.getElementById("photo-gallery");
-  const sizer = element.querySelector(".js-shuffle-sizer");
+  const sizer = element?.querySelector(".js-shuffle-sizer");
   // Assumes you're using the UMD version of Shuffle (for example, from unpkg.com).
   const shuffleInstance = new Shuffle(element, {
     itemSelector: ".picture-item",

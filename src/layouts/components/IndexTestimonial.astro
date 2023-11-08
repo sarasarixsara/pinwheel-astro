@@ -1,0 +1,10 @@
+---
+import IndexSlider from "@layouts/function-components/IndexSlider";
+const { indexTestimonial } = Astro.props;
+---
+
+<section >
+      <div class="col-12">
+        <IndexSlider list={indexTestimonial.testimonial_list} client:load />
+      </div>
+</section>

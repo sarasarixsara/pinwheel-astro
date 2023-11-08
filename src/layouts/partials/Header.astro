@@ -18,7 +18,7 @@ const { main }: { main: NavigationLink[] } = menu;
 const { pathname } = Astro.url;
 ---
 
-<header class="header">
+<header class="header bg-white">
   <nav class="navbar container">
     <!-- logo -->
     <div class="order-0">
@@ -132,13 +132,13 @@ const { pathname } = Astro.url;
   });
 
   //sticky header
-  const header = document.querySelector(".header");
-  window.addEventListener("scroll", () => {
-    const scrollY = window.scrollY;
-    if (scrollY > 0) {
-      header.classList.add("header-sticky");
-    } else {
-      header.classList.remove("header-sticky");
-    }
-  });
+  // const header = document.querySelector(".header");
+  // window.addEventListener("scroll", () => {
+  //   const scrollY = window.scrollY;
+  //   if (scrollY > 0) {
+  //     header.classList.add("header-sticky");
+  //   } else {
+  //     header.classList.remove("header-sticky");
+  //   }
+  // });
 </script>

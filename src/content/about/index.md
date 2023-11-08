@@ -1,6 +1,6 @@
 ---
 title: "About"
-page_title: "About our company"
+page_title: "Disponibilidad de los Servicios de Conectividad a Internet"
 buttons:
   - label: Download The Theme
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
@@ -9,25 +9,20 @@ buttons:
     link: "#"
     outline: true
     enable: true
-
 # counter
 counter:
-  - name: "Customers"
-    number: 25
+  - name: "Proyectos"
+    number: 50
     messurment: M
     color: "#A3A1FB"
-  - name: "Customers"
-    number: 440
+  - name: "Productos"
+    number: 100
     messurment: M
     color: "#5EE2A0"
-  - name: "Customers"
-    number: 50
+  - name: "Usuarios"
+    number: 700
     messurment: K
     color: "#FE6019"
-  - name: "Customers"
-    number: 20
-    messurment: K
-    color: "#FEC163"
     
 # Gallery
 gallery:
@@ -83,4 +78,5 @@ members:
       field: Software Engineer
       image: "/images/users/user-3.png"
 ---
-Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Lorem
+El despliegue de la red de distribución donde se ofrecen los servicios de conectividad a Internet por parte de Convergencia Digital esta basado en tecnología Wi-Fi de largo alcance por lo que la disponibilidad del servicio es del 99,6%.
+
