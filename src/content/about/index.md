@@ -1,14 +1,14 @@
 ---
 title: "About"
-page_title: "About our company"
+page_title: "¿Quiénes somos?"
 buttons:
-  - label: Download The Theme
+  - label: Solicitar asesoría
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
     enable: true
-  - label: Learn More
-    link: "#"
-    outline: true
-    enable: true
+  # - label: Learn More
+  #   link: "#"
+  #   outline: true
+  #   enable: true
 
 # counter
 counter:
@@ -83,4 +83,4 @@ members:
       field: Software Engineer
       image: "/images/users/user-3.png"
 ---
-Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Lorem
+Nos especializamos en instalación, mantenimiento de redes como VSAT, redes LAN, redes en cableado estructurado (voz y datos), redes inalámbricas (microondas), redes eléctricas (media y baja tensión), Sistemas solares Fotovoltaicos, circuito cerrado de televisión. Contamos con experiencia y personal calificado, para dar a nuestros clientes con altos estándares de calidad.
