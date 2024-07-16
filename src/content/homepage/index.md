@@ -8,8 +8,15 @@ banner:
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
     enable: true
 
-title: Integrt6hythations
-page_title: How To Integrate <br/> With Pinwheel
+counter:
+  - name: "Customyjers"
+    number: 25
+    messurment: M
+    color: "#A3A1FB"
+  - name: "Customers"
+    number: 440
+    messurment: M
+    color: "#5EE2A0"
 
 ##key features
 key_features:
