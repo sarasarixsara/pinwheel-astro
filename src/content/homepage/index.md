@@ -62,38 +62,40 @@ key_features:
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 #service
-service:
-  homepage_tab:
-    title: Prevent failure from to impacting your reputation
-    description: Our platform helps you build secure onboarding authentication experiences that retain and engage your users. We build the infrastructure, you can.
-    tab_list:
-        - title: Habit building essential choose habit
-          icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
-          image: "/images/sells-by-country.png"
-        - title: Get an overview of Habit Calendars.
-          icon: "clock"  #icon package react-feather-icon [https://feathericons.com/]
-          image: "/images/collaboration.png"
-        - title: Start building with Habitify platform
-          icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
-          image: "/images/sells-by-country.png"
-
-  our_service:
-    - title: Accept payments any country in this whole universe
-      desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
-      image: "/images/collaboration.png"
-      list:
-        - Supporting more than 119 country world
-        - Open transaction with more than currencies
-        - Customer Service with 79 languages
-    - title: Accountability that works for you
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
-      video:
-        thumbnail: "/images/intro-thumbnail.png"
-        video_id: "g3-VxLQO7do"
-      button:
-        label: Know About Us
-        link: "#"
-        enable: true
+# service:
+homepage_tab:
+  title: Cobertura de servicio de Internet
+  description: Ofrecemos nuestros  servicios y planes de Internet, en zona urbana y rural utilizando tecnología Wi-Fi de largo alcance, por lo que la disponibilidad del servicio es del 99,5%.
+  tab_list:
+      - title: Ibagué
+        icon: "clock"  #icon package react-feather-icon [https://feathericons.com/]
+        image: "/images/collaboration.png"
+      - title: Saldaña.
+        icon: "clock"  #icon package react-feather-icon [https://feathericons.com/]
+        image: 
+      - title: Purificación
+        icon: "clock"  #icon package react-feather-icon [https://feathericons.com/]
+        image: 
+      - title: Prado
+        icon: "clock"  #icon package react-feather-icon [https://feathericons.com/]
+        image: 
+  # our_service:
+  #   - title: Accept payments any country in this whole universe
+  #     desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
+  #     image: "/images/collaboration.png"
+  #     list:
+  #       - Supporting more than 119 country world
+  #       - Open transaction with more than currencies
+  #       - Customer Service with 79 languages
+  #   - title: Accountability that works for you
+  #     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  #     video:
+  #       thumbnail: "/images/intro-thumbnail.png"
+  #       video_id: "g3-VxLQO7do"
+  #     button:
+  #       label: Know About Us
+  #       link: "#"
+  #       enable: true
 
 #testimonial
 testimonial:
