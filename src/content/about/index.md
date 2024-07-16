@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Aboutfghnghn"
 page_title: "¿Quiénes somos?"
 buttons:
   - label: Solicitar asesoría

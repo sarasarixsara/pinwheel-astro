@@ -8,6 +8,9 @@ banner:
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
     enable: true
 
+title: Integrt6hythations
+page_title: How To Integrate <br/> With Pinwheel
+
 ##key features
 key_features:
   title: "The Highlighting Part Of Our Solution"
@@ -129,3 +132,4 @@ testimonial:
       rating: five
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
 ---
+Donec sollicitudin molestie malesda. Donec sollitudin molestie <br /> malesuada Mauris pellentesque nec egestas non nisi Cras

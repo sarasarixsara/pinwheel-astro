@@ -5,15 +5,41 @@ import KeyFeatures from "@/layouts/components/KeyFeatures.astro";
 import Testimonial from "@/layouts/components/Testimonial.astro";
 import Service from "@/layouts/components/Service.astro";
 import Cta from "@/layouts/partials/Cta.astro";
+import IntegrateMedia from "@/layouts/function-components/IntegrateMedia";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import { getTaxonomy } from "@/lib/taxonomyParser.astro";
+import type { TIntegrationsIndex } from "@/types";
 import { getEntryBySlug } from "astro:content";
+import PageHeader from "@/components/PageHeader.astro";
+const integraionsIndex = (await getEntryBySlug<any, string>(
+  "integrations",
+  "-index"
+)) as TIntegrationsIndex;
+const categories = await getTaxonomy("integrations", "categories");
+const integrations = await getSinglePage("integrations");
+const page_data = {
+  ...integraionsIndex.data,
+  content: integraionsIndex.body,
+};
 
 const homepage = await getEntryBySlug("homepage", "index");
-const { banner, key_features, service, testimonial } = homepage.data;
+const { banner, key_features, service, testimonial, integration } = homepage.data;
 ---
 
 <Base>
   <!-- banner -->
   <Banner banner={banner} />
+  <section class="page-hero pb-14 pt-16">
+    <div class="container">
+      <PageHeader page_data={homepage.data} />
+    </div>
+    <IntegrateMedia
+    client:load
+    integrations={integrations}
+    categories={categories}
+  />
+  </section>
+
   <!-- key features -->
   <KeyFeatures key_features={key_features} />
   <!-- service -->
