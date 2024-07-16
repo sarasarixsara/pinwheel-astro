@@ -9,7 +9,7 @@ import { getEntryBySlug } from "astro:content";
 import CounterComponent from "@/components/about/CounterComponent.astro";
 
 const homepage = await getEntryBySlug("homepage", "index");
-const { banner, key_features, service, testimonial,counter } = homepage.data;
+const { banner, key_features, service, testimonial, counter } = homepage.data;
 ---
 
 <Base>

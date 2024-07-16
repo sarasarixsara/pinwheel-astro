@@ -17,7 +17,14 @@ counter:
     number: 440
     messurment: M
     color: "#5EE2A0"
-
+  - name: "Customers"
+    number: 50
+    messurment: K
+    color: "#FE6019"
+  - name: "Customers"
+    number: 20
+    messurment: K
+    color: "#FEC163"
 ##key features
 key_features:
   title: "The Highlighting Part Of Our Solution"
