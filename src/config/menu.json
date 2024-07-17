@@ -4,20 +4,17 @@
       "name": "Inicio",
       "url": "/"
     },
-    {
-      "name": "About",
-      "url": "/about"
-    },
+
     {
       "name": "Blog",
       "url": "/blog"
     },
     {
-      "name": "Features",
+      "name": "Servicios",
       "url": "/features"
     },
     {
-      "name": "How It Works",
+      "name": "Electrónica aplicada",
       "url": "/how-it-works"
     },
     {
@@ -59,27 +56,35 @@
       ]
     },
     {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "Nosotros",
+      "url": "/about"
     }
   ],
 
   "footer": [
     {
-      "name": "About",
+      "name": "Nosotros",
       "url": "/about"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "Servicios",
+      "url": "/features"
     },
     {
       "name": "Elements",
       "url": "/elements"
     },
     {
-      "name": "Changelog",
-      "url": "/changelog"
+      "name": "Planes",
+      "url": "/pricing"
+    },
+    {
+      "name": "Blog",
+      "url": "/blog"
+    },
+    {
+      "name": "Medidor de velocidad",
+      "url": "/career"
     }
   ]
 }

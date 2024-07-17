@@ -96,7 +96,49 @@ homepage_tab:
   #       label: Know About Us
   #       link: "#"
   #       enable: true
-
+# title: Career
+# page_title: "Career In Pinwheel"
+# image: "/images/career/career-hero-image.png"
+benifits:
+  title: Nuestros servicios
+  description: Contamos con gran experiencia en Telecomunicaciones, cableado estructurado, Seguridad electrónica (CCTV), Internet de las Cosas (IoT).Somos proveedores de Servicio de Internet (ISP) y nos especializamos en llevar Internet a zonas Rurales, con cobertura en los municipios de Ibagué, Purificación, Saldaña, Prado, Guamo, Suarez
+  benifit_list:
+    - title: Sistema solar fotovoltaico
+      content: "Sistema Fotovoltaico Directo, Autónomo, Interactivo (Conectado a la Red) directo, Interactivo (Conectado a la Red) con respaldo de Baterías"
+      color: "#24A1FF"
+      icon: briefcase #icon package react-feather-icon [https://feathericons.com]
+    - title: Radio enlaces
+      content: "Instalación y mantenimiento preventivo/correctivo de estaciones VSAT. Radio enlaces terrestres punto a punto, punto a multipunto, y enlace Wifi."
+      color: "#E545FF"
+      icon: barChart  #icon package react-feather-icon [https://feathericons.com]
+    - title: Domótica
+      content: "Sistema especializados para controlar y automatizar una vivienda o edificio. Cuenta con Sistemas de iluminación, de seguridad en el hogar, Automatización de persianas y toldos y mucho más."
+      color: "#FDC528"
+      icon: umbrella  #icon package react-feather-icon [https://feathericons.com]
+    - title: Internet de las Cosas (IoT)
+      content: "Nos especializamos en el diseño y desarrollo de dispositivos que permiten conectar objetos cotidianos con el fin de controlarlos o automatizarlos y poder manipularlos de forma remota."
+      color: "#FF5874"
+      icon: clock  #icon package react-feather-icon [https://feathericons.com]
+    - title: Control y Automatización
+      content: "Automatización de máquinas y procesos industriales, reformas de máquinas, diseño, armado e instalación de tableros eléctricos, control con PLC, PID y Microcontroladores programables."
+      color: "#E545FF"
+      icon: barChart  #icon package react-feather-icon [https://feathericons.com]
+    - title: Instalación eléctrica resiendial, comercial e industrial
+      content: "Montaje y reparación de circuitos eléctricos, conexiones especiales, tableros de distribución de circuitos, equipos de medida, protección, SPT, control y más."
+      color: "#E545FF"
+      icon: barChart  #icon package react-feather-icon [https://feathericons.com]
+    - title: Diseño de redes
+      content: "Diseño de la topología de red, dimensionamiento de vías y dispositivos que conforman la red."
+      color: "#E545FF"
+      icon: barChart  #icon package react-feather-icon [https://feathericons.com]
+    - title: Diseño Electrónico
+      content: "Diseño de circuitos electrónicos para dar soluciones técnicas, al momento realizar actualizaciones, mejoras y/o modificaciones."
+      color: "#7B5AFF"
+      icon: aperture #icon package react-feather-icon [https://feathericons.com]
+    - title: Circuito cerrado de televisión (CCTV)
+      content: "Instalación y Mantenimiento de Sistema Cerrado de Televisión."
+      color: "#12E189"
+      icon: plusSquare  #icon package react-feather-icon [https://feathericons.com]
 #testimonial
 testimonial:
   title: Our customers have nice things to say about us

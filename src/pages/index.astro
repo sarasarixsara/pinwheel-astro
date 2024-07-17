@@ -8,9 +8,11 @@ import Cta from "@/layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
 import CounterComponent from "@/components/about/CounterComponent.astro";
 import HomepageTab from "@/layouts/function-components/HomepageTab";
+import CareerBenifits from "@/layouts/function-components/CareerBenifits";
+
 
 const homepage = await getEntryBySlug("homepage", "index");
-const { banner, key_features, homepage_tab, testimonial, counter } = homepage.data;
+const { banner, key_features, homepage_tab, testimonial, counter, benifits } = homepage.data;
 ---
 
 <Base>
@@ -19,6 +21,7 @@ const { banner, key_features, homepage_tab, testimonial, counter } = homepage.da
   <CounterComponent counter={counter} />
   <!-- key features -->
   <HomepageTab client:load homepage_tab={homepage_tab} />
+  <CareerBenifits client:load benifits={benifits} />
   <KeyFeatures key_features={key_features} />
 
   <!-- service -->
