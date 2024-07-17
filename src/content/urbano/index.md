@@ -3,10 +3,10 @@ title: Planes
 city: Planes en Ibague
 page_title: Planes de Internet
 pricing_card:
-  - title: 5 Megas
+  - title: Minimo Urbano
     pre_currency: $
     post_currency: mes
-    price: 65,000
+    price: 50,000
     icon: box #icon package react-feather-icon [https://feathericons.com/]
     description: Internet Ilimitado
     featured: false
@@ -20,15 +20,15 @@ pricing_card:
     services:
       title: ¿Qué incluye?
       list:
-        - "Velocidad de subida 5Mbps"
-        - "Velocidad de descarga 1,25Mbps"
-        - "Conexión para 4 Dispositivos"
+        - "Velocidad de subida 800Kbps"
+        - "Velocidad de descarga 1,5Mbps"
+        - "Conexión para 3 Dispositivos"
 
 
-  - title: 8 Megas
+  - title: Urbano Basico
     pre_currency: $
     post_currency: mes
-    price: 95,000
+    price: 70,000
     icon: table #icon package react-feather-icon [https://feathericons.com/]
     description: Internet Ilimitado
     featured: true
@@ -42,13 +42,13 @@ pricing_card:
     services:
       title: ¿Qué incluye?
       list:
-        - "Velocidad de subida 8Mbps"
+        - "Velocidad de subida 1Mbps"
         - "Velocidad de descarga 2Mbps"
-        - "Conexión para 7 Dispositivos"
-  - title: 10 Megas
+        - "Conexión para 5 Dispositivos"
+  - title: Corporativo
     pre_currency: $
     post_currency: mes
-    price: 110,000
+    price: 120,000
     icon: briefcase #icon package react-feather-icon [https://feathericons.com/]
     description: Internet Ilimitado
     featured: false
@@ -60,11 +60,11 @@ pricing_card:
         label:
         link: ""
     services:
-      title:¿Qué incluye?
+      title: ¿Qué incluye?
       list:
-        - "Velocidad de subida 10Mbps"
-        - "Velocidad de descarga 2,5Mbps"
-        - "Conexión para 10 Dispositivos"
+        - "Velocidad de subida 2Mbps"
+        - "Velocidad de descarga 4Mbps"
+        - "Conexión para 7 Dispositivos"
 
 faq:
   title: Frequently Asked Questions
