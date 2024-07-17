@@ -9,16 +9,16 @@ banner:
     enable: true
 
 counter:
-  - name: "Customyjers"
-    number: 25
+  - name: "Municipios"
+    number: 4
     messurment: M
     color: "#A3A1FB"
-  - name: "Customers"
+  - name: "Clientes"
     number: 440
     messurment: M
     color: "#5EE2A0"
-  - name: "Customers"
-    number: 50
+  - name: "Servicios"
+    number: 10
     messurment: K
     color: "#FE6019"
 

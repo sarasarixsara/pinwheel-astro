@@ -11,11 +11,11 @@
     },
     {
       "name": "Servicios",
-      "url": "/features"
+      "url": "/"
     },
     {
       "name": "Electrónica aplicada",
-      "url": "/how-it-works"
+      "url": "/"
     },
     {
       "name": "Pages",
@@ -24,23 +24,9 @@
       "children": [
         {
           "name": "Medidor de velocidad",
-          "url": "/career"
-        },
-
-        {
-          "name": "Sign In",
-          "url": "/signin"
-        },
-
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-
-        {
-          "name": "Terms And Conditions",
-          "url": "/terms-and-conditions"
+          "url": "/"
         }
+
       ]
     },
     {
@@ -77,11 +63,11 @@
     },
     {
       "name": "Servicios",
-      "url": "/features"
+      "url": "/"
     },
     {
       "name": "Elements",
-      "url": "/elements"
+      "url": "/"
     },
     {
       "name": "Planes",

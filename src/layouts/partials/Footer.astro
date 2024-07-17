@@ -17,7 +17,7 @@ const { copyright, location, email, phone, footer_description } = config.params;
         <p class="mt-6 text-neutral-600">
           {footer_description}
         </p>
-        <div class="col-12 mt-12 md:col-6 lg:col-4">
+        <!-- <div class="col-12 mt-12 md:col-6 lg:col-4">
           <ul>
             <h5>Contacto</h5>
             <li class="mb-2 mt-2">
@@ -32,12 +32,12 @@ const { copyright, location, email, phone, footer_description } = config.params;
               >
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
      
       <div class="col-12 mt-12 md:col-6 lg:col-4 flex flex-col justify-center items-center mx-auto">
-        <h6>Quick Links</h6>
-        <ul class="">
+        <h6>Entradas</h6>
+        <ul class="grid grid-cols-2 ">
           {
             footer.map((item, i) => (
               <li class={footer.length - 1 === i ? "mb-0 mx-auto" : "mb-4 mx-auto"}>
@@ -51,8 +51,8 @@ const { copyright, location, email, phone, footer_description } = config.params;
       </div>
       <div class="col-12 mt-12 md:col-6 lg:col-4 flex flex-col justify-around items-center gap-4">
         <h5>Asociados a:</h5>
-        <img src="/images/alianza.png" alt="" width="300">
-        <img src="/images/cluster.png" alt="" width="120">
+        <img src="/images/alianza.png" alt="" width="220">
+        <img src="/images/cluster.png" alt="" width="70">
       </div>
     </div>
   </div>

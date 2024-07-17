@@ -4,10 +4,10 @@
     "base_url": "https://pinwheel-astro.vercel.app",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
+    "favicon": "/images/favicon (2).png",
     "logo": "/images/logo.png",
     "logo_width": "147",
-    "logo_height": "31",
+    "logo_height": "40",
     "logo_text": "1Nitec"
   },
 
@@ -35,7 +35,7 @@
   "params": {
     "footer_description": "Nos dedicamos a la ejecución de proyectos en las áreas de electrónica, electricidad, Sistema Solar Fotovoltaico, sistemas y telecomunicaciones.",
     "email": "1nitec.sas@gmail.com",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624",
+    "location": "Callle 9B No. 12A 03 / 20 de Julio Ibague Tolima",
     "phone": "3164384290",
     "contact_form_action": "#",
     "copyright": "Copyright © 2024 Black Golden"

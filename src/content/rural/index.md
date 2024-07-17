@@ -1,7 +1,8 @@
 ---
-title: Planes
+title: Planes para Zonas Rurales
 city: Planes para Zonas Rurales
-page_title: Planes de Internet
+description: Elige el plan más adecuado para tu hogar o negocio, internet ilimitado, no tiene cláusula de permanencia.
+page_title: Planes de Internet para Zonas Rurales
 pricing_card:
   - title: Rural Minimo
     pre_currency: $
@@ -66,13 +67,10 @@ pricing_card:
         - "Conexión para 7 Dispositivos"
 
 faq:
-  title: Frequently Asked Questions
-  description: Vestibulum ante ipsum primis in faucibus orci luctus ultrices posuere cubilia Curae Donec
+  title: Preguntas Frecuentes
+  description: Elige el plan más adecuado para tu hogar o negocio, internet ilimitado, no tiene cláusula de permanencia.
   faq_list:
-    - title: How can I integrate Avocode to my current tool stack?
-      content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
-    - title: How can I integrate Avocode to my current tool stack?
-      content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
-    - title: How can I integrate Avocode to my current tool stack?
-      content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
----
+    - title: Ofrecen soporte del servicio?
+      content: Si. La atencion y el soporte estan habilitados desde las 7am hasta las 7 pm, de lunes a sabados. Atendemos sus inquietudes, reportes de fallas y solicitudes.
+    - title: En cuales municipios tienen cobertura?
+      content: Ibagué, Saldaña, Purificación ,Prado, Guamo y Suarez.
