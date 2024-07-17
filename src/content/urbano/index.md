@@ -15,7 +15,7 @@ pricing_card:
         label: Obtener
         link: "#"
       free_trial:
-        label: 
+        label:
         link: "#"
     services:
       title: ¿Qué incluye?
@@ -23,7 +23,6 @@ pricing_card:
         - "Velocidad de subida 800Kbps"
         - "Velocidad de descarga 1,5Mbps"
         - "Conexión para 3 Dispositivos"
-
 
   - title: Urbano Basico
     pre_currency: $
@@ -37,7 +36,7 @@ pricing_card:
         label: Obtener
         link: "#"
       free_trial:
-        label: 
+        label:
         link: "#"
     services:
       title: ¿Qué incluye?
@@ -70,13 +69,10 @@ faq:
   title: Frequently Asked Questions
   description: Vestibulum ante ipsum primis in faucibus orci luctus ultrices posuere cubilia Curae Donec
   faq_list:
-  - title: How can I integrate Avocode to my current tool stack?
-    content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
-  - title: How can I integrate Avocode to my current tool stack?
-    content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
-  - title: How can I integrate Avocode to my current tool stack?
-    content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
-  
-  
+    - title: How can I integrate Avocode to my current tool stack?
+      content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
+    - title: How can I integrate Avocode to my current tool stack?
+      content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
+    - title: How can I integrate Avocode to my current tool stack?
+      content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
 ---
-

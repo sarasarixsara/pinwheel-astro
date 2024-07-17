@@ -1,6 +1,6 @@
 ---
 title: Planes
-city: Planes en Ibague
+city: Planes para Ibague
 page_title: Planes de Internet
 pricing_card:
   - title: 5 Megas
@@ -15,7 +15,7 @@ pricing_card:
         label: Obtener
         link: "#"
       free_trial:
-        label: 
+        label:
         link: "#"
     services:
       title: ¿Qué incluye?
@@ -23,7 +23,6 @@ pricing_card:
         - "Velocidad de subida 5Mbps"
         - "Velocidad de descarga 1,25Mbps"
         - "Conexión para 4 Dispositivos"
-
 
   - title: 8 Megas
     pre_currency: $
@@ -37,7 +36,7 @@ pricing_card:
         label: Obtener
         link: "#"
       free_trial:
-        label: 
+        label:
         link: "#"
     services:
       title: ¿Qué incluye?
@@ -60,7 +59,7 @@ pricing_card:
         label:
         link: ""
     services:
-      title:¿Qué incluye?
+      title: ¿Qué incluye?
       list:
         - "Velocidad de subida 10Mbps"
         - "Velocidad de descarga 2,5Mbps"
@@ -70,13 +69,10 @@ faq:
   title: Frequently Asked Questions
   description: Vestibulum ante ipsum primis in faucibus orci luctus ultrices posuere cubilia Curae Donec
   faq_list:
-  - title: How can I integrate Avocode to my current tool stack?
-    content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
-  - title: How can I integrate Avocode to my current tool stack?
-    content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
-  - title: How can I integrate Avocode to my current tool stack?
-    content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
-  
-  
+    - title: Ofrecen soporte del servicio?
+      content: Si. La atencion y el soporte estan habilitados desde las 7am hasta las 7 pm, de lunes a sabados. Atendemos sus inquietudes, reportes de fallas y solicitudes.
+    - title: How can I integrate Avocode to my current tool stack?
+      content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
+    - title: How can I integrate Avocode to my current tool stack?
+      content: The Service is provided for free during this pilot project, and is provided "as is" with is not committed to any level of service or availability of the Service.
 ---
-
