@@ -17,7 +17,7 @@ const HomepageTab = ({ homepage_tab: { tab_list, title, description } }) => {
               }`}
             >
               {/* <img className="w-full object-contain" src={item.image} /> */}
-              <iframe src="https://www.google.com/maps/d/embed?mid=1vHlNkxsSTK_pPS7aDqkFqcSC971Mb2fU&hl=es&ehbc=2E312F" width="640" height="480"></iframe>
+              <iframe className="lg:w-full w-2/3" src="https://www.google.com/maps/d/embed?mid=1vHlNkxsSTK_pPS7aDqkFqcSC971Mb2fU&hl=es&ehbc=2E312F" width="640" height="480"></iframe>
             </div>
           ))}
         </div>
@@ -26,15 +26,17 @@ const HomepageTab = ({ homepage_tab: { tab_list, title, description } }) => {
         <div className="text-container">
           <h2 className="lg:text-4xl">{title}</h2>
           <p className="mt-4">{description}</p>
-          <ul className="tab-nav mt-4 border-b-0 flex flex-col ">
+          <ul className=" mt-4 border-b-0 flex flex-col w-fit justify-center">
             {tab_list.map((item, index) => {
               const FeatherIcon = Icon[humanize(item.icon)];
               return (
                 <li
                   key={index}
-                  className={`tab-nav-item ${
-                    tab === index ? "active" : undefined
-                  }`}
+                  className="flex flex-row w-full"
+                  
+                  // {` ${
+                  //   tab === index ? "active" : undefined
+                  // }`}
                  // onClick={() => setTab(index)}
                   
                 >
