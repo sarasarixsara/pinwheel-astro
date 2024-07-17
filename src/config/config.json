@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "1Nitec",
-    "base_url": "https://1nitec.com",
+    "base_url": "https://1nitec.com/dev",
     "base_path": "/dev",
     "trailing_slash": false,
     "favicon": "/images/favicon (2).png",
