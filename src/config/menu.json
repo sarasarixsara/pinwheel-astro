@@ -4,52 +4,11 @@
       "name": "Inicio",
       "url": "/dev/"
     },
-
-    {
-      "name": "Blog",
-      "url": "/dev/blog"
-    },
     {
       "name": "Servicios",
       "url": "/dev/"
     },
-    {
-      "name": "Electrónica aplicada",
-      "url": "/dev/"
-    },
-    {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Medidor de velocidad",
-          "url": "/dev/"
-        }
-
-      ]
-    },
-    {
-      "name": "Planes Internet",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Ibague",
-          "url": "/dev/pricing"
-        },
-
-        {
-          "name": "Zona Rural",
-          "url": "/dev/rural"
-        },
-
-        {
-          "name": "Zona Urbana",
-          "url": "/dev/urbano"
-        }
-      ]
-    },
+    
     {
       "name": "Nosotros",
       "url": "/dev/about"
