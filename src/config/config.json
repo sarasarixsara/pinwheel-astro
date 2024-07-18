@@ -4,8 +4,8 @@
     "base_url": "https://1nitec.com/dev",
     "base_path": "/dev",
     "trailing_slash": false,
-    "favicon": "/images/favicon (2).png",
-    "logo": "/images/logo.png",
+    "favicon": "/dev/images/favicon (2).png",
+    "logo": "/dev/images/logo.png",
     "logo_width": "147",
     "logo_height": "40",
     "logo_text": "1Nitec"
@@ -43,7 +43,7 @@
 
   "metadata": {
     "meta_author": "1Nitec",
-    "meta_image": "/images/logo.png",
+    "meta_image": "/dev/images/logo.png",
     "meta_description": "1Nitec"
   }
 }
