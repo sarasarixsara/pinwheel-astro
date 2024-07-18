@@ -2,7 +2,7 @@
 banner:
   title: "Proveedor de servicios de internet y soluciones tecnológicas"
   content: "Nos dedicamos a la ejecución de proyectos en las áreas de electrónica, electricidad, Sistema Solar Fotovoltaico, sistemas y telecomunicaciones."
-  image: /dev/images/banner-img.png
+  image: /images/banner-img.png
   button:
     label: Contáctanos
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
@@ -66,7 +66,7 @@ homepage_tab:
   tab_list:
     - title: Ibagué
       icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
-      image: "/dev/images/collaboration.png"
+      image: "/images/collaboration.png"
     - title: Saldaña.
       icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
       image:
@@ -79,7 +79,7 @@ homepage_tab:
   # our_service:
   #   - title: Accept payments any country in this whole universe
   #     desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
-  #     image: "/dev/images/collaboration.png"
+  #     image: "/images/collaboration.png"
   #     list:
   #       - Supporting more than 119 country world
   #       - Open transaction with more than currencies
@@ -87,7 +87,7 @@ homepage_tab:
   #   - title: Accountability that works for you
   #     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
   #     video:
-  #       thumbnail: "/dev/images/intro-thumbnail.png"
+  #       thumbnail: "/images/intro-thumbnail.png"
   #       video_id: "g3-VxLQO7do"
   #     button:
   #       label: Know About Us
@@ -95,7 +95,7 @@ homepage_tab:
   #       enable: true
 # title: Career
 # page_title: "Career In Pinwheel"
-# image: "/dev/images/career/career-hero-image.png"
+# image: "/images/career/career-hero-image.png"
 benifits:
   title: Nuestros servicios
   description: Contamos con gran experiencia en Telecomunicaciones, cableado estructurado, Seguridad electrónica (CCTV), Internet de las Cosas (IoT).Somos proveedores de Servicio de Internet (ISP) y nos especializamos en llevar Internet a zonas Rurales, con cobertura en los municipios de Ibagué, Purificación, Saldaña, Prado, Guamo, Suarez
@@ -142,47 +142,47 @@ testimonial:
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
   testimonial_list:
     - author: David Cameron
-      avatar: "/dev/images/users/user-5.png"
+      avatar: "/images/users/user-5.png"
       organization: meta limited
       rating: four
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
     - author: David Cameron
-      avatar: "/dev/images/users/user-6.png"
+      avatar: "/images/users/user-6.png"
       organization: meta limited
       rating: four
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
     - author: David Cameron
-      avatar: "/dev/images/users/user-2.png"
+      avatar: "/images/users/user-2.png"
       organization: meta limited
       rating: three
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
     - author: David Cameron
-      avatar: "/dev/images/users/user-3.png"
+      avatar: "/images/users/user-3.png"
       organization: meta limited
       rating: five
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
     - author: David Cameron
-      avatar: "/dev/images/users/user-4.png"
+      avatar: "/images/users/user-4.png"
       organization: meta limited
       rating: five
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
     - author: David Cameron
-      avatar: "/dev/images/users/user-1.png"
+      avatar: "/images/users/user-1.png"
       organization: meta limited
       rating: three
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
     - author: David Cameron
-      avatar: "/dev/images/users/user-5.png"
+      avatar: "/images/users/user-5.png"
       organization: meta limited
       rating: five
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
     - author: David Cameron
-      avatar: "/dev/images/users/user-5.png"
+      avatar: "/images/users/user-5.png"
       organization: meta limited
       rating: five
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
     - author: David Cameron
-      avatar: "/dev/images/users/user-5.png"
+      avatar: "/images/users/user-5.png"
       organization: meta limited
       rating: five
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .

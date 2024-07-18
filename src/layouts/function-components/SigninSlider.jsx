@@ -14,7 +14,7 @@ const SigninSlider = ({ title }) => {
     <div className="auth-banner bg-gradient flex flex-col items-center justify-center py-16 lg:col-6 lg:block">
       <img
         className="absolute left-0 top-0 h-full w-full"
-        src="/dev/images/login-banner-bg.png"
+        src="/images/login-banner-bg.png"
         alt=""
       />
       <div className="w-full text-center">
@@ -42,7 +42,7 @@ const SigninSlider = ({ title }) => {
                 width="667"
                 height="557"
                 className="mx-auto"
-                src="/dev/images/signup-carousel-img-1.png"
+                src="/images/signup-carousel-img-1.png"
                 alt=""
               />
             </SwiperSlide>
@@ -51,7 +51,7 @@ const SigninSlider = ({ title }) => {
                 width="667"
                 height="557"
                 className="mx-auto"
-                src="/dev/images/signup-carousel-img-1.png"
+                src="/images/signup-carousel-img-1.png"
                 alt=""
               />
             </SwiperSlide>
@@ -60,7 +60,7 @@ const SigninSlider = ({ title }) => {
                 width="667"
                 height="557"
                 className="mx-auto"
-                src="/dev/images/signup-carousel-img-1.png"
+                src="/images/signup-carousel-img-1.png"
                 alt=""
               />
             </SwiperSlide>

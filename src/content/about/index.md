@@ -33,9 +33,9 @@ buttons:
 # gallery:
 #   title: We started with one single goal Empower entrepreneurs
 #   images:
-#     - "/dev/images/about/gallery-img-1.png"
-#     - "/dev/images/about/gallery-img-3.png"
-#     - "/dev/images/about/gallery-img-2.png"
+#     - "/images/about/gallery-img-1.png"
+#     - "/images/about/gallery-img-3.png"
+#     - "/images/about/gallery-img-2.png"
 
 # ## our works
 # features:
@@ -65,22 +65,22 @@ buttons:
 #   member_list:
 #     - name: Eleanor Pena
 #       field: Co-founder & COO
-#       image: "/dev/images/users/user-1.png"
+#       image: "/images/users/user-1.png"
 #     - name: Bukiakta Bansalo
 #       field: Product Manager
-#       image: "/dev/images/users/user-2.png"
+#       image: "/images/users/user-2.png"
 #     - name: Ortrin Okaster
 #       field: Software Engineer
-#       image: "/dev/images/users/user-3.png"
+#       image: "/images/users/user-3.png"
 #     - name: Eleanor Pena
 #       field: Co-founder & COO
-#       image: "/dev/images/users/user-1.png"
+#       image: "/images/users/user-1.png"
 #     - name: Bukiakta Bansalo
 #       field: Product Manager
-#       image: "/dev/images/users/user-2.png"
+#       image: "/images/users/user-2.png"
 #     - name: Ortrin Okaster
 #       field: Software Engineer
-#       image: "/dev/images/users/user-3.png"
+#       image: "/images/users/user-3.png"
 ---
 
 Nos especializamos en instalación, mantenimiento de redes como VSAT, redes LAN, redes en cableado estructurado (voz y datos), redes inalámbricas (microondas), redes eléctricas (media y baja tensión), Sistemas solares Fotovoltaicos, circuito cerrado de televisión. Contamos con experiencia y personal calificado, para dar a nuestros clientes con altos estándares de calidad.

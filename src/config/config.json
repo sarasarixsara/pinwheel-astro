@@ -1,11 +1,11 @@
 {
   "site": {
     "title": "1Nitec",
-    "base_url": "https://1nitec.com/dev",
-    "base_path": "/dev",
+    "base_url": "https://1nitec.com",
+    "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/dev/images/favicon (2).png",
-    "logo": "/dev/images/logo.png",
+    "favicon": "/images/favicon (2).png",
+    "logo": "/images/logo.png",
     "logo_width": "147",
     "logo_height": "40",
     "logo_text": "1Nitec"
@@ -43,7 +43,7 @@
 
   "metadata": {
     "meta_author": "1Nitec",
-    "meta_image": "/dev/images/logo.png",
+    "meta_image": "/images/logo.png",
     "meta_description": "1Nitec"
   }
 }
