@@ -2,20 +2,20 @@
   "main": [
     {
       "name": "Inicio",
-      "url": "/"
+      "url": "/dev/"
     },
 
     {
       "name": "Blog",
-      "url": "/blog"
+      "url": "/dev/blog"
     },
     {
       "name": "Servicios",
-      "url": "/"
+      "url": "/dev/"
     },
     {
       "name": "Electrónica aplicada",
-      "url": "/"
+      "url": "/dev/"
     },
     {
       "name": "Pages",
@@ -24,7 +24,7 @@
       "children": [
         {
           "name": "Medidor de velocidad",
-          "url": "/"
+          "url": "/dev/"
         }
 
       ]
@@ -36,50 +36,50 @@
       "children": [
         {
           "name": "Ibague",
-          "url": "/pricing"
+          "url": "/dev/pricing"
         },
 
         {
           "name": "Zona Rural",
-          "url": "/rural"
+          "url": "/dev/rural"
         },
 
         {
           "name": "Zona Urbana",
-          "url": "/urbano"
+          "url": "/dev/urbano"
         }
       ]
     },
     {
       "name": "Nosotros",
-      "url": "/about"
+      "url": "/dev/about"
     }
   ],
 
   "footer": [
     {
       "name": "Nosotros",
-      "url": "/about"
+      "url": "/dev/about"
     },
     {
       "name": "Servicios",
-      "url": "/"
+      "url": "/dev/"
     },
     {
       "name": "Elements",
-      "url": "/"
+      "url": "/dev/"
     },
     {
       "name": "Planes",
-      "url": "/pricing"
+      "url": "/dev/pricing"
     },
     {
       "name": "Blog",
-      "url": "/blog"
+      "url": "/dev/blog"
     },
     {
       "name": "Medidor de velocidad",
-      "url": "/career"
+      "url": "/dev/career"
     }
   ]
 }
