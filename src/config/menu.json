@@ -2,43 +2,43 @@
   "main": [
     {
       "name": "Inicio",
-      "url": "/dev/"
+      "url": "/"
     },
     {
       "name": "Servicios",
-      "url": "/dev/"
+      "url": "/"
     },
     
     {
       "name": "Nosotros",
-      "url": "/dev/about"
+      "url": "/about"
     }
   ],
 
   "footer": [
     {
       "name": "Nosotros",
-      "url": "/dev/about"
+      "url": "/about"
     },
     {
       "name": "Servicios",
-      "url": "/dev/"
+      "url": "/"
     },
     {
       "name": "Elements",
-      "url": "/dev/"
+      "url": "/"
     },
     {
       "name": "Planes",
-      "url": "/dev/pricing"
+      "url": "/pricing"
     },
     {
       "name": "Blog",
-      "url": "/dev/blog"
+      "url": "/blog"
     },
     {
       "name": "Medidor de velocidad",
-      "url": "/dev/career"
+      "url": "/career"
     }
   ]
 }
