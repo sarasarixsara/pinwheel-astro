@@ -2,7 +2,7 @@
 banner:
   title: "Proveedor de servicios de internet y soluciones tecnológicas"
   content: "Nos dedicamos a la ejecución de proyectos en las áreas de electrónica, electricidad, Sistema Solar Fotovoltaico, sistemas y telecomunicaciones."
-  image: /images/banner-img.png
+  image: /images/tecno.png
   button:
     label: Contáctanos
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
