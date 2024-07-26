@@ -22,6 +22,18 @@ counter:
     messurment: K
     color: "#FE6019"
 
+linkGroup:
+  title: "hola"
+  title_suffix: "hola"
+  FAQ:
+   - title: "hola"
+     link: "https://www.google.com"
+   - title: "hola"
+     link: "https://www.google.com"
+   - title: "hola"
+     link: "https://www.google.com"
+    
+
 ##key features
 # key_features:
 #   title: "The Highlighting Part Of Our Solution"

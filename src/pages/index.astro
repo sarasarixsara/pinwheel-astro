@@ -6,22 +6,25 @@ import Testimonial from "@/layouts/components/Testimonial.astro";
 import Service from "@/layouts/components/Service.astro";
 import Cta from "@/layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
+import LinkGroup from "@/components/links/linkGroup.astro";
 import CounterComponent from "@/components/about/CounterComponent.astro";
 import HomepageTab from "@/layouts/function-components/HomepageTab";
 import CareerBenifits from "@/layouts/function-components/CareerBenifits";
 
 
 const homepage = await getEntryBySlug("homepage", "index");
-const { banner, key_features, homepage_tab, testimonial, counter, benifits } = homepage.data;
+const { banner, key_features, homepage_tab, testimonial, counter, benifits, linkGroup } = homepage.data;
 ---
 
 <Base>
   <!-- banner -->
   <Banner banner={banner} />
   <CounterComponent counter={counter} />
+  <LinkGroup linkGroup={linkGroup} />
   <!-- key features -->
   <HomepageTab client:load homepage_tab={homepage_tab} />
   <CareerBenifits client:load benifits={benifits} />
+  
   <!-- <KeyFeatures key_features={key_features} /> -->
 
   <!-- service -->
