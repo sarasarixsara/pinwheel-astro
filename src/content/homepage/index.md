@@ -22,16 +22,7 @@ counter:
     messurment: K
     color: "#FE6019"
 
-linkGroup:
-  title: "hola"
-  title_suffix: "hola"
-  FAQ:
-   - title: "hola"
-     link: "https://www.google.com"
-   - title: "hola"
-     link: "https://www.google.com"
-   - title: "hola"
-     link: "https://www.google.com"
+
     
 
 ##key features
@@ -198,6 +189,21 @@ testimonial:
       organization: meta limited
       rating: five
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+linkGroup:
+  title: Marco Legal
+  description: Informacion importante para el usuario
+  faq_list:
+    - title: Te protejo - Denuncie aquí
+      link: https://teprotejo.org/
+    - title: Control parental
+      link: https://www.icbf.gov.co/mis-manos-te-ensenan/cinco-apps-de-control-parental-para-proteger-ninas-y-ninos-en-internet
+    - title: Ley 679 de 2001
+      link: /docs/LEY-679-DE-2001.pdf
+    - title: Medidor de velocidad Speedtest
+      link: https://www.speedtest.net/es
+    - title: Medidor de velocidad ETB
+      link: https://etb.com/medidor/
+
 ---
 
 Donec sollicitudin molestie malesda. Donec sollitudin molestie <br /> malesuada Mauris pellentesque nec egestas non nisi Cras
