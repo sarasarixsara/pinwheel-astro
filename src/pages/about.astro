@@ -7,6 +7,8 @@ import OurMembers from "@/components/about/OurMembers.astro";
 import Works from "@/components/about/Works.astro";
 import Base from "@/layouts/Base.astro";
 import { getEntryBySlug } from "astro:content";
+import Image from "astro/components/Image.astro";
+
 
 const about = await getEntryBySlug("about", "index");
 const { counter, gallery, features, members,icon1, icon2,whatsapp, gmail } = about.data;
@@ -58,7 +60,11 @@ const page_data = {
           <div>
             <br />
             <div class="mt-8 flex justify-around">
-              <img src={icon1} alt="WhatsApp" style="width: 40px; height: 30px;">
+              <Image src="/images/whatsapp.png" 
+              width={50}
+              height={50}
+              alt="WhatsApp" />
+              <!-- <img src={icon1} alt="WhatsApp" style="width: 40px; height: 30px;"> -->
             <h6>Whatsapp:
             <a href="https://wa.me/573164384290" target="_blank" class="whatsapp-link">
               {whatsapp}
@@ -67,7 +73,10 @@ const page_data = {
             <br />
             </div>
             <div class="mt-8 flex justify-around">
-              <img src={icon2} alt="Gmail" style="width: 40px; height: 25px;">
+              <Image src="/images/gmail.png" 
+              width={50}
+              height={50}
+              alt="Gmail" />
             <h6>Email:
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=1nitec.sas@gmail.com&su=Asunto&body=Mensaje" target="_blank">
               {gmail}
