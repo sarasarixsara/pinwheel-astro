@@ -9,7 +9,7 @@ import Base from "@/layouts/Base.astro";
 import { getEntryBySlug } from "astro:content";
 
 const about = await getEntryBySlug("about", "index");
-const { counter, gallery, features, members } = about.data;
+const { counter, gallery, features, members,icon1, icon2,whatsapp, gmail } = about.data;
 const page_data = {
   ...about.data,
   content: about.body,
@@ -58,19 +58,19 @@ const page_data = {
           <div>
             <br />
             <div class="mt-8 flex justify-around">
-              <img src="images/whatsapp.png" alt="WhatsApp" style="width: 40px; height: 30px;">
+              <img src={icon1} alt="WhatsApp" style="width: 40px; height: 30px;">
             <h6>Whatsapp:
             <a href="https://wa.me/573164384290" target="_blank" class="whatsapp-link">
-              +57 316 438 42 90
+              {whatsapp}
             </a>
             </h6>
             <br />
             </div>
             <div class="mt-8 flex justify-around">
-              <img src="images/gmail.png" alt="Gmail" style="width: 40px; height: 25px;">
+              <img src={icon2} alt="Gmail" style="width: 40px; height: 25px;">
             <h6>Email:
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=1nitec.sas@gmail.com&su=Asunto&body=Mensaje" target="_blank">
-              1nitec.sas@gmail.com
+              {gmail}
             </a>   
             </h6>       
             </div>

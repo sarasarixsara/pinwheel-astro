@@ -1,6 +1,10 @@
 ---
 title: "Nosotros"
 page_title: "¿Quiénes somos?"
+icon1: "images/whatsapp.png"
+icon2: "images/gmail.png"
+whatsapp: 3164384290
+gmail: 1nitec.sas@gmail.com
 buttons:
   - label: Solicitar asesoría
     link: "https://themefisher.com/astro-themes/pinwheel-astro"

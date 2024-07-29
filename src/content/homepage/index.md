@@ -5,7 +5,7 @@ banner:
   image: /images/tecno.png
   button:
     label: Contáctanos
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
+    link: "https://wa.me/573164384290"
     enable: true
 
 counter:
