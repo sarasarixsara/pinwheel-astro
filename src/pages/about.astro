@@ -40,8 +40,8 @@ const page_data = {
         <h3 class="mb-12">
           <p class="text-center ...">Contáctanos o acércate a nuestros puntos de atención</p>
         </h3>
-        <div class="flex w-full justify-around">
-          <div>
+        <div class="flex flex-col md:flex-row w-full justify-around md:pl-48">
+          <div class="md:w-1/2 mb-4 md:mb-0">
             <h6>
               Oficina Calle #37 13-30 (Piso 2) / Ibague – Tolima
             </h6>
@@ -55,26 +55,26 @@ const page_data = {
               class="rounded-lg shadow-lg mt-4"
               tabindex="0"></iframe>
           </div>
-          <div>
-            <br />
-            <div class="mt-8 flex justify-around">
-              <img src="images/whatsapp.png" alt="WhatsApp" style="width: 40px; height: 30px;">
-            <h6>Whatsapp:
-            <a href="https://wa.me/573164384290" target="_blank" class="whatsapp-link">
-              +57 316 438 42 90
-            </a>
-            </h6>
-            <br />
+          <div class="md:w-1/2">
+            <div class="flex flex-col md:flex-row items-center mb-4 md:mb-8">
+              <img src="images/whatsapp.png" alt="WhatsApp" class="w-10 h-8 md:mr-2">
+              <h6>Whatsapp:
+                <a href="https://wa.me/573164384290" target="_blank" class="whatsapp-link">
+                  +57 316 438 42 90
+                </a>
+              </h6>
             </div>
-            <div class="mt-8 flex justify-around">
-              <img src="images/gmail.png" alt="Gmail" style="width: 40px; height: 25px;">
-            <h6>Email:
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=1nitec.sas@gmail.com&su=Asunto&body=Mensaje" target="_blank">
-              1nitec.sas@gmail.com
-            </a>   
-            </h6>       
+            <div class="flex flex-col md:flex-row items-center">
+              <img src="images/gmail.png" alt="Gmail" class="w-10 h-6 md:mr-2">
+              <h6>Email:
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=1nitec.sas@gmail.com&su=Asunto&body=Mensaje" target="_blank">
+                  1nitec.sas@gmail.com
+                </a>
+              </h6>
             </div>
-            
           </div>
+        </div>
+      </div>
+    </div>
   </section>
 </Base>
