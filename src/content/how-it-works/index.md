@@ -2,7 +2,6 @@
 title: How It Works
 page_title: our structured approach helps you navigate uncertainties
 
-
 # perfomance
 perfomance:
   - title: market profetionals
@@ -35,4 +34,5 @@ our_works:
       - Open transaction with more than currencies
       - Customer Service with 79 languages
 ---
+
 Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque <br /> nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta.Lorem

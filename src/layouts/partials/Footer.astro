@@ -11,53 +11,56 @@ const { copyright, location, email, phone, footer_description } = config.params;
 
 <footer class="footer bg-[#F1F1F1]">
   <div class="container">
-    <div class="gx-5 row pb-10 pt-[52px]">
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
+    <div class="gx-5 row pb-8 flex justify-around w-full">
+      <div class="col-12 mt-12 md:col-6 lg:col-4 ">
+        <div>
         <Logo />
-        <p class="mt-6">
+        <p class="mt-6 text-neutral-600">
           {footer_description}
+        </div>
         </p>
+        <!-- <div class="col-12 mt-12 md:col-6 lg:col-4">
+          <ul>
+            <h5>Contacto</h5>
+            <li class="mb-2 mt-2">
+              <a class="mb-2 hover:text-primary  text-neutral-600" href={`mailto:${email}`}
+                >{email}</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:text-primary hover:underline   text-neutral-600"
+                href={`tel:${phone}`}>{phone}</a
+              >
+            </li>
+          </ul>
+        </div> -->
       </div>
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <h6>Socials</h6>
-
-        <Social source={social} className="social-icons mt-4 lg:mt-6" />
-      </div>
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <h6>Quick Links</h6>
-        <ul>
+<!--      
+      <div class="col-12 mt-12 md:col-6 lg:col-4 flex flex-col justify-center items-center mx-auto">
+        <h6>Entradas</h6>
+        <ul class="grid grid-cols-2 ">
           {
             footer.map((item, i) => (
-              <li class={footer.length - 1 === i ? "mb-0" : "mb-4"}>
-                <a class="hover:text-primary hover:underline " href={item.url}>
+              <li class={footer.length - 1 === i ? "mb-0 mx-auto" : "mb-4 mx-auto"}>
+                <a class="hover:text-primary hover:underline mx-auto text-neutral-600 col-6" href={item.url}>
                   {item.name}
                 </a>
               </li>
             ))
           }
         </ul>
-      </div>
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <h6>Location & Contact</h6>
-        <ul>
-          <li class="mb-2">{location}</li>
-          <li class="mb-2">
-            <a class="mb-2 hover:text-primary" href={`mailto:${email}`}
-              >{email}</a
-            >
-          </li>
-          <li>
-            <a class="hover:text-primary hover:underline" href={`tel:${phone}`}
-              >{phone}</a
-            >
-          </li>
-        </ul>
+      </div> -->
+      <div class="col-12 mt-12 md:col-6 lg:col-4 flex flex-col justify-around items-center gap-4">
+        <h5>Asociados a:</h5>
+        <img src="/images/alianza.png" alt="" width="220">
+        <img src="/images/cluster.png" alt="" width="70">
       </div>
     </div>
   </div>
   <div class="container max-w-[1440px]">
     <div
-      class="footer-copyright mx-auto border-t border-border pb-10 pt-7 text-center"
+      class="footer-copyright mx-auto border-t border-border pt-2 text-center"
     >
       <p class="content text-text" set:html={markdownify(copyright)} />
     </div>
